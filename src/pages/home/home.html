@@ -7,8 +7,10 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <ion-card>
+        <img src="{{img}}"/>
+        
+        <div class="card-subtitle"> <button ion-button (click)="takePicture()"><ion-icon name="camera"></ion-icon></button></div>
+      </ion-card>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ad ut consectetur officia. Assumenda delectus, harum maiores rerum eaque odit velit fugit? Odit minima, est aliquam quod vel accusamus dicta!</p>
 </ion-content>
